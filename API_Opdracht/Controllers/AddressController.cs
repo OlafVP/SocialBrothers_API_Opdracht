@@ -153,6 +153,7 @@ namespace API_Opdracht.Controllers
             return Ok("Deleted address with id " + id);
         }
         
+        // GET /api/address/distance
         [HttpGet("distance")]
         public async Task<ActionResult<double>> CalculateDistance([FromQuery] int addressId1, [FromQuery] int addressId2)
         {
