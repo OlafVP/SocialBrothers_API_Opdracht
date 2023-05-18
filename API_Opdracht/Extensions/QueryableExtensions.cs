@@ -6,7 +6,7 @@ namespace API_Opdracht.Extensions
 {
     public static class QueryableExtensions
     {
-        public static IQueryable<T> ApplySorting<T>(this IQueryable<T> query, string sortBy, bool isDescending)
+        public static IQueryable<T> ApplySorting<T>(this IQueryable<T> query, string sortBy, bool isAscending)
         {
             if (string.IsNullOrEmpty(sortBy))
                 return query;
@@ -15,7 +15,7 @@ namespace API_Opdracht.Extensions
             var property = Expression.Property(parameter, sortBy);
             var selector = Expression.Lambda(property, parameter);
 
-            var methodName = isDescending ? "OrderByDescending" : "OrderBy";
+            var methodName = isAscending ? "OrderBy": "OrderByDescending";
             var method = typeof(Queryable).GetMethods()
                 .FirstOrDefault(m => m.Name == methodName && m.GetParameters().Length == 2)
                 ?.MakeGenericMethod(typeof(T), property.Type);

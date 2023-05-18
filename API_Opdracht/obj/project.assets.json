@@ -4522,11 +4522,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RiderProjects\\API_Opdracht\\API_Opdracht\\API_Opdracht.csproj",
+      "projectUniqueName": "C:\\GitHub\\SocialBrothers_API_Opdracht\\API_Opdracht\\API_Opdracht.csproj",
       "projectName": "API_Opdracht",
-      "projectPath": "D:\\RiderProjects\\API_Opdracht\\API_Opdracht\\API_Opdracht.csproj",
+      "projectPath": "C:\\GitHub\\SocialBrothers_API_Opdracht\\API_Opdracht\\API_Opdracht.csproj",
       "packagesPath": "C:\\Users\\olafv\\.nuget\\packages\\",
-      "outputPath": "D:\\RiderProjects\\API_Opdracht\\API_Opdracht\\obj\\",
+      "outputPath": "C:\\GitHub\\SocialBrothers_API_Opdracht\\API_Opdracht\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

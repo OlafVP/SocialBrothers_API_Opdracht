@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0LCieRCehgHgRLNUUxjv+Ya2Le9u+wWLSpqOg3UaorUQ6tiLms3sPJMdpf9C6eOmvhH9OCIlKtawWHuLSZ7UBw==",
+  "dgSpecHash": "feT3gE2oew0pI2IzpUjds2qCbBoo1AYMp2Mm2OAEHs9odw1/sOYq+gwSsy2y5jE4Fq6dK3z4T37L6YoyFi7R3w==",
   "success": true,
-  "projectFilePath": "D:\\RiderProjects\\API_Opdracht\\API_Opdracht\\API_Opdracht.csproj",
+  "projectFilePath": "C:\\GitHub\\SocialBrothers_API_Opdracht\\API_Opdracht\\API_Opdracht.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\olafv\\.nuget\\packages\\googlemapsapi\\1.2.1\\googlemapsapi.1.2.1.nupkg.sha512",
     "C:\\Users\\olafv\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.2\\microsoft.aspnetcore.openapi.7.0.2.nupkg.sha512",
